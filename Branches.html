@@ -21,3 +21,10 @@ git branch <branch>, create a new branch called <branch>. This does not check ou
     git fetch --all -->
 
     <!-- git merge <branch>, this command merges the specific branch into the current branch. -->
+
+    <!-- Resolving conflict, if the two branches you are trying to merge both change the same part
+        of the file, git won't be able to figure out which version to use. When such a certain situation occurs, it stops right before the merge commit so that you can resolve the 
+        conflicts manually. And that's the great part of git's merging process is that it uses
+        the familiar edit/stage/commit workflow to resolve merge conflicts. When you
+        encounter a merge conflict, run the git status command shows you which files needs to be 
+        resolved. -->
