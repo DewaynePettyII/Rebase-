@@ -1,1 +1,2 @@
-console.log (branchB)
+console.log ("branchB-modify")
+console.log ("newchange")
