@@ -1,2 +1,2 @@
 # Rebase-
-feature one - Michael
+feature one - Michael.
