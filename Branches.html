@@ -1,0 +1,48 @@
+<!-- Listing Branches: git branch, list all of the branches in your repository. This is synanymous with
+git branch --list
+git branch <branch>, create a new branch called <branch>. This does not check out the new branch. -->
+
+<!-- git branch -d <branch>, deletes the specific branch. This is a safe operation in that git
+    prevents you from deleting the branch it has unmerged changes. -->
+
+<!-- git branch -D <branch>, force deletes the specific branch, even if it has unmerged changes. 
+    This is the comman to use if you want to permanently throw away all of the commits associated with
+    a particular line if development. -->
+
+<!-- git branch -m <branch>, renames the current branch to <branch>. -->
+
+<!-- git branch -a, lists all remote branches. -->
+
+<!-- git checkout -b <branch>, the above example simultaneously creates and checks out. -->
+
+<!-- git checkout <branches>, is used to switch between branches. -->
+
+<!-- When collaborating with a team it is common to utilize remote repositories. These repositories mat be hosted and shared or they may be a collegue's local copy. Its remote repository will contain its own set of branches. In order to checkout a remote branch you have to first fetch the content of the branch.
+    git fetch --all -->
+
+<!-- git merge <branch>, this command merges the specific branch into the current branch. -->
+
+<!-- Resolving conflict, if the two branches you are trying to merge both change the same part
+        of the file, git won't be able to figure out which version to use. When such a certain situation occurs, it stops right before the merge commit so that you can resolve the 
+        conflicts manually. And that's the great part of git's merging process is that it uses
+        the familiar edit/stage/commit workflow to resolve merge conflicts. When you
+        encounter a merge conflict, run the git status command shows you which files needs to be 
+        resolved. -->
+
+<!-- a new change for Bob -->
+<!-- a new change for Alice -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebase</title>
+</head>
+
+<body>
+    REBASE
+</body>
+
+</html>
